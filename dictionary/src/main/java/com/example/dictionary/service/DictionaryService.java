@@ -81,4 +81,5 @@ public class DictionaryService {
                 .map(entry -> new Entry(entry.getKey(), entry.getValue()))
                 .collect(Collectors.toList());
     }
+
 }
